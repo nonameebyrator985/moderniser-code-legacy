@@ -3,9 +3,9 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue dans l'application moderne !');
+  res.send('Welcome to the modern application!');
 });
 
 app.listen(PORT, () => {
-  console.log(`Le serveur tourne sur http://localhost:${PORT}`);
+  console.log(`Server is running at http://localhost:${PORT}`);
 });
